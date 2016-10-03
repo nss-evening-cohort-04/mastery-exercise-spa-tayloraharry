@@ -1,0 +1,15 @@
+ .card {
+ border: .1em solid black;
+ word-wrap: break-word;
+}
+
+#nav {
+  margin-bottom: 1em;
+}
+
+.selected {
+  font-size: 1.5em;
+  border: .15em dashed black;
+  background-color: #e6e6e6;
+ word-wrap: break-word;
+}
