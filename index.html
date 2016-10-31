@@ -11,7 +11,27 @@
     <title>Used Car Lot</title>
   </head>
 <body>
-<div id="nav" class="container">
+<nav id="nav" class="navbar navbar-inverse">
+       <div class="container-fluid">
+           <div class="navbar-header">
+               <a class="navbar-brand" href="#">Taylor's AutoBody</a>
+           </div>
+           <ul class="nav navbar-nav">
+               <li class="active">
+                   <a href="#">Home</a>
+               </li>
+               <li>
+                   <a href="#">Contact Us</a>
+               </li>
+           </ul>
+       </div>
+       <form class="navbar-form navbar-left" role="search">
+           <div class="form-group">
+               <input class="form-control" id="user-input" placeholder="Search" type="text">
+           </div><button class="btn btn-success btn-default" type="submit">Submit</button>
+       </form>
+   </nav>
+<!-- <div id="nav" class="container">
   <div class="row">
         <div class="col-md-12">
         <h2>Car Inventory</h2>
@@ -27,7 +47,7 @@
             </div>
         </div>
   </div>
-</div>
+</div> -->
     <div id="car-container" class="container">
     </div>
   <script type="text/javascript" src="javascripts/getinventory.js"></script>
